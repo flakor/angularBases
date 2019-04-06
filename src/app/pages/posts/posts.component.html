@@ -1,0 +1,6 @@
+<h1>Posts Lazyload</h1>
+
+<ul class="list-group">
+    <app-post *ngFor="let mensaje of mensajes | async" [mensaje]="mensaje" (clickPost)="escuchaClick( $event )"></app-post>
+
+</ul>
