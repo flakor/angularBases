@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MenuComponent } from './components/menu/menu.component';
 import { PagesModule } from './pages/pages.module';
-import { PostComponent } from './pagess/posts/post/post.component';
+
 
 @NgModule({
   declarations: [
@@ -13,8 +13,8 @@ import { PostComponent } from './pagess/posts/post/post.component';
     // AboutComponent,
     // ContactComponent,
     // HomeComponent,
-    MenuComponent,
-    PostComponent
+    MenuComponent
+
   ],
   imports: [
     BrowserModule,
